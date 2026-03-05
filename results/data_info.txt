@@ -1,0 +1,33 @@
+Data Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 4427 entries, 0 to 4426
+Data columns (total 7 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   FullHaul       4427 non-null   float64
+ 1   DumpingTime    4427 non-null   float64
+ 2   EmptyHaul      4427 non-null   float64
+ 3   LoadingTime    4427 non-null   float64
+ 4   CycleDistance  4427 non-null   float64
+ 5   TotalCycle     4427 non-null   float64
+ 6   MinedTonnes    4427 non-null   float64
+dtypes: float64(7)
+memory usage: 242.2 KB
+
+Missing Values:
+FullHaul         0
+DumpingTime      0
+EmptyHaul        0
+LoadingTime      0
+CycleDistance    0
+TotalCycle       0
+MinedTonnes      0
+
+Skewness:
+FullHaul         38.438715
+DumpingTime       3.693425
+EmptyHaul         7.205653
+LoadingTime       9.355280
+CycleDistance     3.202318
+TotalCycle        9.489145
+MinedTonnes       1.035648
